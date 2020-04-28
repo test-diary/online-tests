@@ -1,10 +1,10 @@
 import React from 'react';
-import Login from './compoents/login/Login'
+import PrivateRoute from './PrivateRoute';
 
 function App() {
   return (
-    <div className="App">   
-      <Login />
+    <div className="App">
+      <PrivateRoute />
     </div>
   );
 }
