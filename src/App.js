@@ -1,12 +1,10 @@
 import React from 'react';
-import Login from './compoents/login/Login'
-import Question from './compoents/onlineQuestions/Question'
+import PrivateRoute from './PrivateRoute';
 
 function App() {
   return (
-    <div className="App">   
-      <Login />
-      <Question/>
+    <div className="App">
+      <PrivateRoute />
     </div>
   );
 }
