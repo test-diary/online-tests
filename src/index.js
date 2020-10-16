@@ -5,7 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  console.log(">>>>>>>>>", process.env.PORT);
+  console.log(">>>>>>>>>", process.env.PORT),
   <React.StrictMode>
     <App />
   </React.StrictMode>,
